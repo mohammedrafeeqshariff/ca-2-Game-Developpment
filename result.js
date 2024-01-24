@@ -27,5 +27,5 @@ playAgain.addEventListener("click",()=>{
 
 // this event will return the user to the home page(details) when clicked
 go_home_button.addEventListener("click",()=>{
-    location.href="details.html"
+    location.href="index.html"
 })
