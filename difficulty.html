@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Difficulty Selection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <audio id="bg_audio" loop>
+        <source src="./assets/39dreamland39-by-crusadope-10040.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div id="difficulty-container">
+        <h1>SELECT  DIFFICULTY  LEVEL</h1>
+
+        <div id="difficulty">
+            <div id="beginner_button" onclick="selectQuestions(0)">
+                <p>BEGINNER</p>
+            </div>
+
+            <div id="intermediate_button" onclick="selectQuestions(1)">
+                <p>INTERMEDIATE</p>
+            </div>
+
+            <div id="veteran_button" onclick="selectQuestions(2)">
+                <p>VETERAN</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
